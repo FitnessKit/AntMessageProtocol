@@ -7,25 +7,20 @@ class AntMessageProtocolTests: XCTestCase {
 
     static var allTests : [(String, (AntMessageProtocolTests) -> () throws -> Void)] {
         return [
-            
-            //Geocache
-            ("testGeocachePage0", testGeocachePage0),
-
-            //Common pages
-            ("testCommonPage76", testCommonPage76),
-            ("testCommonPage81", testCommonPage81),
-            ("testCommonPage82", testCommonPage82)
+            /// Manufacturer
+            ("testRegisterManufacturer", testRegisterManufacturer),
+            ("testDupManufacturer", testDupManufacturer),
+            ("testFindManufacturer", testFindManufacturer),
 
         ]
     }
 
-
-    static var commonPageTests : [(String, (AntMessageProtocolTests) -> () throws -> Void)] {
+    static var manufacturerTests : [(String, (AntMessageProtocolTests) -> () throws -> Void)] {
         return [
-            //Common pages
-            ("testCommonPage76", testCommonPage76),
-            ("testCommonPage81", testCommonPage81),
-            ("testCommonPage82", testCommonPage82)
+            /// Manufacturer
+            ("testRegisterManufacturer", testRegisterManufacturer),
+            ("testDupManufacturer", testDupManufacturer),
+            ("testFindManufacturer", testFindManufacturer),
         ]
     }
 

@@ -1,6 +1,6 @@
 //
 //  EncodingProtocol.swift
-//  ANTMessageProtocol
+//  AntMessageProtocol
 //
 //  Created by Kevin Hoogheem on 4/16/17.
 //

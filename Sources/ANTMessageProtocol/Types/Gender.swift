@@ -1,6 +1,6 @@
 //
 //  Gender.swift
-//  ANTMessageProtocol
+//  AntMessageProtocol
 //
 //  Created by Kevin Hoogheem on 2/3/18.
 //

@@ -1,6 +1,6 @@
 //
 //  DeltaExtentions.swift
-//  ANTMessageProtocol
+//  AntMessageProtocol
 //
 //  Created by Kevin Hoogheem on 4/23/17.
 //

@@ -1,6 +1,6 @@
 //
 //  DataTypes.swift
-//  ANTMessageProtocol
+//  AntMessageProtocol
 //
 //  Created by Kevin Hoogheem on 3/18/17.
 //

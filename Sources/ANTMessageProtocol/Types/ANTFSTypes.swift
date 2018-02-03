@@ -1,6 +1,6 @@
 //
 //  ANTFSTypes.swift
-//  ANTMessageProtocol
+//  AntMessageProtocol
 //
 //  Created by Kevin Hoogheem on 4/8/17.
 //

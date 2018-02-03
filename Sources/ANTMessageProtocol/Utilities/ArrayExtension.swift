@@ -1,6 +1,6 @@
 //
 //  ArrayExtension.swift
-//  ANTMessageProtocol
+//  AntMessageProtocol
 //
 //  Created by Kevin Hoogheem on 3/19/17.
 //

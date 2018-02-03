@@ -1,6 +1,6 @@
 //
 //  DataExtension.swift
-//  ANTMessageProtocol
+//  AntMessageProtocol
 //
 //  Created by Kevin Hoogheem on 3/25/17.
 //

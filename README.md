@@ -5,7 +5,6 @@
 
 Swift Version of the ANT Message Protocol.
 
-Supports Revision 2.3
 
 ## Installation
 

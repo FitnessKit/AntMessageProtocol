@@ -1,6 +1,6 @@
 //
 //  SoftwareVersion.swift
-//  ANTMessageProtocol
+//  AntMessageProtocol
 //
 //  Created by Kevin Hoogheem on 4/9/17.
 //

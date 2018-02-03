@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import ANTMessageProtocol
+@testable import AntMessageProtocol
 
-extension ANTMessageProtocolTests {
+extension AntMessageProtocolTests {
 
     func testGeocachePage0() {
         let sensorData: Data = Data([0x00, 0x86, 0xED, 0x0B, 0x00, 0x00, 0x00, 0x00])

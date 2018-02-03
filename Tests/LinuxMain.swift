@@ -1,6 +1,6 @@
 import XCTest
-@testable import ANTMessageProtocolTests
+@testable import AntMessageProtocol
 
 XCTMain([
-     testCase(ANTMessageProtocolTests.allTests),
+     testCase(AntMessageProtocol.allTests),
 ])

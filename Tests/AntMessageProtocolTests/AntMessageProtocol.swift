@@ -1,11 +1,11 @@
 import XCTest
-@testable import ANTMessageProtocol
+@testable import AntMessageProtocol
 
 
-class ANTMessageProtocolTests: XCTestCase {
+class AntMessageProtocolTests: XCTestCase {
 
 
-    static var allTests : [(String, (ANTMessageProtocolTests) -> () throws -> Void)] {
+    static var allTests : [(String, (AntMessageProtocolTests) -> () throws -> Void)] {
         return [
             
             //Geocache
@@ -20,7 +20,7 @@ class ANTMessageProtocolTests: XCTestCase {
     }
 
 
-    static var commonPageTests : [(String, (ANTMessageProtocolTests) -> () throws -> Void)] {
+    static var commonPageTests : [(String, (AntMessageProtocolTests) -> () throws -> Void)] {
         return [
             //Common pages
             ("testCommonPage76", testCommonPage76),

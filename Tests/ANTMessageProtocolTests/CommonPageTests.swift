@@ -9,9 +9,9 @@
 import Foundation
 
 import XCTest
-@testable import ANTMessageProtocol
+@testable import AntMessageProtocol
 
-extension ANTMessageProtocolTests {
+extension AntMessageProtocolTests {
 
     func testCommonPage76() {
 

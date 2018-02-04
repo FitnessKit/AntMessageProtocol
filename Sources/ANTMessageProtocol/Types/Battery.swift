@@ -24,14 +24,26 @@
 
 import Foundation
 
+/// Battery Status
 public enum BatteryStatus: UInt8 {
+    /// Reserved
     case reserved       = 0
+    /// New
     case new            = 1
+    /// Good
     case good           = 2
+    /// OK
     case ok             = 3
+    /// Low
     case low            = 4
+    /// Critical
     case critical       = 5
-    case invalid        = 7
+    /// Charging (FIT)
+    case charging       = 6
+    /// Unknown
+    case unknown        = 7
+    /// Invalid
+    case invalid        = 255
 }
 
 public extension BatteryStatus {
@@ -50,6 +62,10 @@ public extension BatteryStatus {
             return "Low"
         case .critical:
             return "Critical"
+        case .charging:
+            return "Charging"
+        case .unknown:
+            return "Unknown"
         case .invalid:
             return "Invalid"
         }

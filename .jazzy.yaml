@@ -1,0 +1,13 @@
+module: AntMessageProtocol
+author: Kevin A. Hoogheem
+github_url: https://github.com/FitnessKit/AntMessageProtocol
+
+readme: README.md
+
+output: docs
+clean: true
+
+copyright: '© 2017 Kevin A. Hoogheem'
+
+xcodebuild_arguments: [-scheme,AntMessageProtocol-Package]
+

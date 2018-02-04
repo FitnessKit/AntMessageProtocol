@@ -1,0 +1,1629 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 27,
+      "symbol": "ErrorReasons",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 29,
+      "symbol": "ErrorReasons.unsupportedMessage",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 38,
+      "symbol": "ErrorReasons.encodeError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 39,
+      "symbol": "ErrorReasons.decodeError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 46,
+      "symbol": "ErrorReasons.invalidChannelMessageType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 47,
+      "symbol": "ErrorReasons.invalidChannelMessageCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 48,
+      "symbol": "ErrorReasons.invalidChannelType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 51,
+      "symbol": "ErrorReasons.generic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 54,
+      "symbol": "ANTMessageProtocolError",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 56,
+      "symbol": "ANTMessageProtocolError.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 58,
+      "symbol": "ANTMessageProtocolError.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Errors.swift",
+      "line": 62,
+      "symbol": "ANTMessageProtocolError.init(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Protocols/EncodingProtocol.swift",
+      "line": 28,
+      "symbol": "Encodeable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Protocols/EncodingProtocol.swift",
+      "line": 30,
+      "symbol": "Encodeable.encodedData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 27,
+      "symbol": "AntFsBeaconPeriod",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 28,
+      "symbol": "AntFsBeaconPeriod.halfHertz",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 29,
+      "symbol": "AntFsBeaconPeriod.oneHertz",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 30,
+      "symbol": "AntFsBeaconPeriod.twoHertz",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 31,
+      "symbol": "AntFsBeaconPeriod.fourHertz",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 32,
+      "symbol": "AntFsBeaconPeriod.eightHertz",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 33,
+      "symbol": "AntFsBeaconPeriod.matchEstablished",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 36,
+      "symbol": "AntFsClientState",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 37,
+      "symbol": "AntFsClientState.link",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 38,
+      "symbol": "AntFsClientState.authentication",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 39,
+      "symbol": "AntFsClientState.transport",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 40,
+      "symbol": "AntFsClientState.busy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 42,
+      "symbol": "AntFsClientState.reserved",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 45,
+      "symbol": "AntFsAuthType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 53,
+      "symbol": "AntFsAuthType.reserved",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 57,
+      "symbol": "AntFsStatusByte1",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 59,
+      "symbol": "AntFsStatusByte1.beaconPeriod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 61,
+      "symbol": "AntFsStatusByte1.pairingEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 63,
+      "symbol": "AntFsStatusByte1.uploadEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 65,
+      "symbol": "AntFsStatusByte1.dataAvailable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 67,
+      "symbol": "AntFsStatusByte1.uint8Value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 76,
+      "symbol": "AntFsStatusByte1.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 86,
+      "symbol": "AntFsStatusByte1.init(beacon:pairingEnabled:uploadEnabled:dataAvailable:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 95,
+      "symbol": "AntFsStatusByte2",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 97,
+      "symbol": "AntFsStatusByte2.deviceState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 99,
+      "symbol": "AntFsStatusByte2.uint8Value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 104,
+      "symbol": "AntFsStatusByte2.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTFSTypes.swift",
+      "line": 109,
+      "symbol": "AntFsStatusByte2.init(deviceState:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 66,
+      "symbol": "TransmissionType.kicker",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 71,
+      "symbol": "DeviceType.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 72,
+      "symbol": "DeviceType.sync",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 73,
+      "symbol": "DeviceType.bikePower",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 74,
+      "symbol": "DeviceType.multiSportSpeedDistance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 75,
+      "symbol": "DeviceType.controls",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 76,
+      "symbol": "DeviceType.fitnessEquipment",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 77,
+      "symbol": "DeviceType.bloodPressure",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 78,
+      "symbol": "DeviceType.geoCache",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 79,
+      "symbol": "DeviceType.lightElectricVehicle",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 80,
+      "symbol": "DeviceType.activityMonitor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 81,
+      "symbol": "DeviceType.environment",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 82,
+      "symbol": "DeviceType.racquet",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 83,
+      "symbol": "DeviceType.muscleOxygen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 84,
+      "symbol": "DeviceType.bikeShifting",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 85,
+      "symbol": "DeviceType.bikeLights",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 86,
+      "symbol": "DeviceType.bikeLightsSecondary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 87,
+      "symbol": "DeviceType.bikeRadar",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 88,
+      "symbol": "DeviceType.tracker",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 89,
+      "symbol": "DeviceType.dropperSeatpost",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 90,
+      "symbol": "DeviceType.bikeSuspension",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 91,
+      "symbol": "DeviceType.weightScale",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 92,
+      "symbol": "DeviceType.heartRate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 93,
+      "symbol": "DeviceType.bikeSpeedCadence",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 94,
+      "symbol": "DeviceType.bikeCadence",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 95,
+      "symbol": "DeviceType.bikeSpeed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ANTTypes.swift",
+      "line": 96,
+      "symbol": "DeviceType.strideBasedSpeedDistance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": null,
+      "symbol": "BatteryStatus",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 27,
+      "symbol": "BatteryStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 28,
+      "symbol": "BatteryStatus.reserved",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 29,
+      "symbol": "BatteryStatus.new",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 30,
+      "symbol": "BatteryStatus.good",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 31,
+      "symbol": "BatteryStatus.ok",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 32,
+      "symbol": "BatteryStatus.low",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 33,
+      "symbol": "BatteryStatus.critical",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 34,
+      "symbol": "BatteryStatus.invalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 39,
+      "symbol": "BatteryStatus.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 59,
+      "symbol": "CumulativeOperatingResolution",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 60,
+      "symbol": "CumulativeOperatingResolution.sixteenSecond",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 61,
+      "symbol": "CumulativeOperatingResolution.twoSecond",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 63,
+      "symbol": "CumulativeOperatingResolution.multiplier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 85,
+      "symbol": "BatteryIdentifier.uint8Value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 92,
+      "symbol": "BatteryIdentifier.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 98,
+      "symbol": "BatteryIdentifier.init(count:identifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 105,
+      "symbol": "BatteryDescriptiveField",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 107,
+      "symbol": "BatteryDescriptiveField.coarseVoltage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 109,
+      "symbol": "BatteryDescriptiveField.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 111,
+      "symbol": "BatteryDescriptiveField.resolution",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 113,
+      "symbol": "BatteryDescriptiveField.uint8Value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 122,
+      "symbol": "BatteryDescriptiveField.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
+      "line": 128,
+      "symbol": "BatteryDescriptiveField.init(coarseVoltage:status:resolution:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ComponentIdentifier.swift",
+      "line": 38,
+      "symbol": "ComponentIdentifier.uint8Value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ComponentIdentifier.swift",
+      "line": 45,
+      "symbol": "ComponentIdentifier.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/ComponentIdentifier.swift",
+      "line": 51,
+      "symbol": "ComponentIdentifier.init(count:identifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 28,
+      "symbol": "AntInvalidUInt8",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 29,
+      "symbol": "AntInvalidUInt8.invalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 30,
+      "symbol": "AntInvalidUInt8.value",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 32,
+      "symbol": "AntInvalidUInt8.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 41,
+      "symbol": "AntInvalidUInt8.create(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 50,
+      "symbol": "AntInvalidUInt16",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 51,
+      "symbol": "AntInvalidUInt16.invalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 52,
+      "symbol": "AntInvalidUInt16.value",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 54,
+      "symbol": "AntInvalidUInt16.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 63,
+      "symbol": "AntInvalidUInt16.create(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 72,
+      "symbol": "AntInvalidUInt32",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 73,
+      "symbol": "AntInvalidUInt32.invalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 74,
+      "symbol": "AntInvalidUInt32.value",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 76,
+      "symbol": "AntInvalidUInt32.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DataTypes.swift",
+      "line": 85,
+      "symbol": "AntInvalidUInt32.create(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": null,
+      "symbol": "DayOfWeek",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": null,
+      "symbol": "TimeDate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 28,
+      "symbol": "DayOfWeek",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 29,
+      "symbol": "DayOfWeek.sunday",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 30,
+      "symbol": "DayOfWeek.monday",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 31,
+      "symbol": "DayOfWeek.tuesday",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 32,
+      "symbol": "DayOfWeek.wednesday",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 33,
+      "symbol": "DayOfWeek.thursday",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 34,
+      "symbol": "DayOfWeek.friday",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 35,
+      "symbol": "DayOfWeek.saturday",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 36,
+      "symbol": "DayOfWeek.invalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 41,
+      "symbol": "DayOfWeek.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 63,
+      "symbol": "Month",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 64,
+      "symbol": "Month.january",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 65,
+      "symbol": "Month.february",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 66,
+      "symbol": "Month.march",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 67,
+      "symbol": "Month.april",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 68,
+      "symbol": "Month.may",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 69,
+      "symbol": "Month.june",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 70,
+      "symbol": "Month.july",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 71,
+      "symbol": "Month.august",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 72,
+      "symbol": "Month.september",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 73,
+      "symbol": "Month.october",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 74,
+      "symbol": "Month.november",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 75,
+      "symbol": "Month.december",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 78,
+      "symbol": "AntDay",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 80,
+      "symbol": "AntDay.weekday",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 82,
+      "symbol": "AntDay.dayOfMonth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 84,
+      "symbol": "AntDay.uint8Value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 91,
+      "symbol": "AntDay.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 97,
+      "symbol": "AntDay.init(weekday:dayOfMonth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 104,
+      "symbol": "TimeDate",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 107,
+      "symbol": "TimeDate.seconds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 109,
+      "symbol": "TimeDate.minutes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 111,
+      "symbol": "TimeDate.hours",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 113,
+      "symbol": "TimeDate.day",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 115,
+      "symbol": "TimeDate.month",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 117,
+      "symbol": "TimeDate.year",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 126,
+      "symbol": "TimeDate.init(seconds:minutes:hour:day:month:year:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/DateTime.swift",
+      "line": 144,
+      "symbol": "TimeDate.encodedData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 28,
+      "symbol": "FitnessEquipmentType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 29,
+      "symbol": "FitnessEquipmentType.general",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 30,
+      "symbol": "FitnessEquipmentType.treadmill",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 31,
+      "symbol": "FitnessEquipmentType.elliptical",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 32,
+      "symbol": "FitnessEquipmentType.stationaryBike",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 33,
+      "symbol": "FitnessEquipmentType.Climber",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 34,
+      "symbol": "FitnessEquipmentType.nordicSkier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 35,
+      "symbol": "FitnessEquipmentType.trainer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 36,
+      "symbol": "FitnessEquipmentType.trainerTorque",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 39,
+      "symbol": "FitnessEquipmentState",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 40,
+      "symbol": "FitnessEquipmentState.reserved",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 41,
+      "symbol": "FitnessEquipmentState.asleep",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 42,
+      "symbol": "FitnessEquipmentState.ready",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 43,
+      "symbol": "FitnessEquipmentState.inUse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 44,
+      "symbol": "FitnessEquipmentState.paused",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 46,
+      "symbol": "FitnessEquipmentState.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/FitnessEquipmentTypes.swift",
+      "line": 61,
+      "symbol": "FitnessEquipmentState.canTransition(state:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/GenericCommand.swift",
+      "line": null,
+      "symbol": "GenericCommand",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/GenericCommand.swift",
+      "line": 28,
+      "symbol": "GenericCommand",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/GenericCommand.swift",
+      "line": 29,
+      "symbol": "GenericCommand.noCommand",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/GenericCommand.swift",
+      "line": 30,
+      "symbol": "GenericCommand.value",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/GenericCommand.swift",
+      "line": 32,
+      "symbol": "GenericCommand.rawvalue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Manufacturer/Manufacturer.swift",
+      "line": 39,
+      "symbol": "Manufacturer.init(id:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Manufacturer/ManufacturerSupported.swift",
+      "line": 30,
+      "symbol": "Manufacturer.supportedManufacturers",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/SoftwareVersion.swift",
+      "line": 31,
+      "symbol": "SoftwareVersion.supplemental",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/SoftwareVersion.swift",
+      "line": 33,
+      "symbol": "SoftwareVersion.main",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/SoftwareVersion.swift",
+      "line": 35,
+      "symbol": "SoftwareVersion.version",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/SoftwareVersion.swift",
+      "line": 48,
+      "symbol": "SoftwareVersion.init(main:supplemental:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/SoftwareVersion.swift",
+      "line": 57,
+      "symbol": "SoftwareVersion.encodedData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 30,
+      "symbol": "Sport.generic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 31,
+      "symbol": "Sport.running",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 32,
+      "symbol": "Sport.cycling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 33,
+      "symbol": "Sport.multisportTransition",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 34,
+      "symbol": "Sport.fitnessEquipment",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 35,
+      "symbol": "Sport.swimming",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 36,
+      "symbol": "Sport.basketball",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 37,
+      "symbol": "Sport.soccer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 38,
+      "symbol": "Sport.tennis",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 39,
+      "symbol": "Sport.americanFootball",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 40,
+      "symbol": "Sport.training",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 41,
+      "symbol": "Sport.walking",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 42,
+      "symbol": "Sport.crossCountrySkiing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 43,
+      "symbol": "Sport.alpineSkiing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 44,
+      "symbol": "Sport.snowboarding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 45,
+      "symbol": "Sport.rowing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 46,
+      "symbol": "Sport.mountaineering",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 47,
+      "symbol": "Sport.hiking",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 48,
+      "symbol": "Sport.mulitsport",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 49,
+      "symbol": "Sport.paddling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 50,
+      "symbol": "Sport.flying",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 51,
+      "symbol": "Sport.eBiking",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 52,
+      "symbol": "Sport.motorcycling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 53,
+      "symbol": "Sport.boating",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 54,
+      "symbol": "Sport.driving",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 55,
+      "symbol": "Sport.golf",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 56,
+      "symbol": "Sport.hangGliding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 57,
+      "symbol": "Sport.horsebackRiding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 58,
+      "symbol": "Sport.hunting",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 59,
+      "symbol": "Sport.fishing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 60,
+      "symbol": "Sport.inlineSkating",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 61,
+      "symbol": "Sport.rockClimbing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 62,
+      "symbol": "Sport.sailing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 63,
+      "symbol": "Sport.iceSkating",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 64,
+      "symbol": "Sport.skyDiving",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 65,
+      "symbol": "Sport.snowshoeing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 66,
+      "symbol": "Sport.snowmobiling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 67,
+      "symbol": "Sport.standUpPaddelboarding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 68,
+      "symbol": "Sport.surfing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 69,
+      "symbol": "Sport.wakeboarding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 70,
+      "symbol": "Sport.waterSkiing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 71,
+      "symbol": "Sport.kayaking",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 72,
+      "symbol": "Sport.rafting",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 73,
+      "symbol": "Sport.windSurfing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 74,
+      "symbol": "Sport.kiteSurfing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 75,
+      "symbol": "Sport.tactical",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 76,
+      "symbol": "Sport.jumpMaster",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 77,
+      "symbol": "Sport.boxing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 78,
+      "symbol": "Sport.floorClimbing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 79,
+      "symbol": "Sport.all",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 80,
+      "symbol": "Sport.invalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Sport.swift",
+      "line": 85,
+      "symbol": "Sport.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol"
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AntMessageProtocol'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Encoding and Decoding of the ANT Message Protocol.'
 
 
@@ -17,7 +17,7 @@ Encoding and Decoding of the ANT Message Protocol.  Provides codeing methods for
                        DESC
 
   s.homepage            = 'https://github.com/FitnessKit/AntMessageProtocol'
-  s.documentation_url   = 'https://fitnesskit.github.io/AntMessageProtocol/'
+#s.documentation_url   = 'https://fitnesskit.github.io/AntMessageProtocol/'
   s.license             = { :type => 'MIT', :file => 'LICENSE' }
   s.author              = { 'Kevin A. Hoogheem' => 'kevin@hoogheem.net' }
   s.source              = { :git => 'https://github.com/FitnessKit/AntMessageProtocol.git', :tag => s.version.to_s }

@@ -1,10 +1,9 @@
 # AntMessageProtocol
 
 [![Swift4](https://img.shields.io/badge/swift4-compatible-4BC51D.svg?style=flat)](https://developer.apple.com/swift)
-![Version](https://img.shields.io/cocoapods/v/BluetoothMessageProtocol.svg?style=flat)](http://cocoapods.org/pods/AntMessageProtocol)
-[![License](https://img.shields.io/cocoapods/l/BluetoothMessageProtocol.svg?style=flat)](http://cocoapods.org/pods/AntMessageProtocol)
-[![Platform](https://img.shields.io/cocoapods/p/BluetoothMessageProtocol.svg?style=flat)](http://cocoapods.org/pods/AntMessageProtocol)
-
+[![Version](https://img.shields.io/cocoapods/v/AntMessageProtocol.svg?style=flat)](http://cocoapods.org/pods/AntMessageProtocol)
+[![License](https://img.shields.io/cocoapods/l/AntMessageProtocol.svg?style=flat)](http://cocoapods.org/pods/AntMessageProtocol)
+[![Platform](https://img.shields.io/cocoapods/p/AntMessageProtocol.svg?style=flat)](http://cocoapods.org/pods/AntMessageProtocol)
 
 
 Swift Version of the ANT Message Protocol.

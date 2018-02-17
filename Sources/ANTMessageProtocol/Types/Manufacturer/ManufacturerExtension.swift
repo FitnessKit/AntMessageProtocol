@@ -270,8 +270,10 @@ public extension Manufacturer {
     public class var gopherSport: Manufacturer { return Manufacturer(id: 117, name: "Gopher Sport") }
     /// Water Rower
     public class var waterRower: Manufacturer { return Manufacturer(id: 118, name: "Water Rower") }
+    /// Orange Theory
+    public class var orangeTheory: Manufacturer { return Manufacturer(id: 119, name: "Orange Theory") }
 
-    //119-254 NOT ASSIGNED
+    //120-254 NOT ASSIGNED
     //256 NOT ASSIGNED
 
     /// Health and Life
@@ -336,6 +338,8 @@ public extension Manufacturer {
     public class var omata: Manufacturer { return Manufacturer(id: 286, name: "Omata") }
     /// VDO
     public class var vdo: Manufacturer { return Manufacturer(id: 287, name: "VDO") }
+    /// Magnetic Days
+    public class var magneticDays: Manufacturer { return Manufacturer(id: 288, name: "Magnetic Days") }
 
 
     /// ActiGraph

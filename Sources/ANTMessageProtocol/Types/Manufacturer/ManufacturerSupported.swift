@@ -144,7 +144,9 @@ public extension Manufacturer {
         allManufacturers.append(.soaringTechnology)
         allManufacturers.append(.igpSport)
         allManufacturers.append(.thinkRider)
+        allManufacturers.append(.gopherSport)
         allManufacturers.append(.waterRower)
+        allManufacturers.append(.orangeTheory)
 
         allManufacturers.append(.healthAndLife)
         allManufacturers.append(.lezyne)
@@ -177,6 +179,7 @@ public extension Manufacturer {
         allManufacturers.append(.feedbackSports)
         allManufacturers.append(.omata)
         allManufacturers.append(.vdo)
+        allManufacturers.append(.magneticDays)
 
         allManufacturers.append(.actiGraph)
 

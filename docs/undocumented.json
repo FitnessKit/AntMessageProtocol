@@ -485,168 +485,105 @@
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": null,
-      "symbol": "BatteryStatus",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 27,
-      "symbol": "BatteryStatus",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 28,
-      "symbol": "BatteryStatus.reserved",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 29,
-      "symbol": "BatteryStatus.new",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 30,
-      "symbol": "BatteryStatus.good",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 31,
-      "symbol": "BatteryStatus.ok",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 32,
-      "symbol": "BatteryStatus.low",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 33,
-      "symbol": "BatteryStatus.critical",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 34,
-      "symbol": "BatteryStatus.invalid",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 39,
+      "line": 51,
       "symbol": "BatteryStatus.stringValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 59,
+      "line": 75,
       "symbol": "CumulativeOperatingResolution",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 60,
+      "line": 76,
       "symbol": "CumulativeOperatingResolution.sixteenSecond",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 61,
+      "line": 77,
       "symbol": "CumulativeOperatingResolution.twoSecond",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 63,
+      "line": 79,
       "symbol": "CumulativeOperatingResolution.multiplier",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 85,
+      "line": 101,
       "symbol": "BatteryIdentifier.uint8Value",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 92,
+      "line": 108,
       "symbol": "BatteryIdentifier.init(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 98,
+      "line": 114,
       "symbol": "BatteryIdentifier.init(count:identifier:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 105,
+      "line": 121,
       "symbol": "BatteryDescriptiveField",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 107,
+      "line": 123,
       "symbol": "BatteryDescriptiveField.coarseVoltage",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 109,
+      "line": 125,
       "symbol": "BatteryDescriptiveField.status",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 111,
+      "line": 127,
       "symbol": "BatteryDescriptiveField.resolution",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 113,
+      "line": 129,
       "symbol": "BatteryDescriptiveField.uint8Value",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 122,
+      "line": 138,
       "symbol": "BatteryDescriptiveField.init(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/Battery.swift",
-      "line": 128,
+      "line": 144,
       "symbol": "BatteryDescriptiveField.init(coarseVoltage:status:resolution:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1223,6 +1160,13 @@
       "line": 30,
       "symbol": "Manufacturer.supportedManufacturers",
       "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kevinh/Developer/GitHub/FitnessKit/ANTMessageProtocol/Sources/AntMessageProtocol/Types/NetworkType.swift",
+      "line": 38,
+      "symbol": "NetworkType.invalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {

@@ -31,4 +31,4 @@ Kevin A. Hoogheem
 
 ## License
 
-FitDataProtocol is available under the MIT license. See the LICENSE file for more info.
+AntMessageProtocol is available under the MIT license. See the LICENSE file for more info.

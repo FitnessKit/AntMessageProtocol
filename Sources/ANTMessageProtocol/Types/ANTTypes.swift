@@ -47,25 +47,6 @@ public enum ChannelType: UInt8 {
     case masterTransmitOnly = 80
 }
 
-/// ANT Transmission Types
-///
-public enum TransmissionType: UInt8 {
-    /// Pairing
-    case pairing                        = 0
-    /// Independent Channel
-    case independentChannel             = 1
-    /// Shared Channl 1 Byte Addressing
-    case sharedChannelOneByteAddress    = 2
-    /// Shared Channel 2 Byte Addressing
-    case sharedChannelTwoByteAddress    = 3
-    /// Supports Common Pages ANT+
-    case commonPages                    = 5
-    /// Shared
-    case shared                         = 6
-    //Special Case for Wahoo Kicker
-    case kicker                         = 165
-}
-
 /// ANT Device Types
 public enum DeviceType: UInt8 {
     case unknown                    = 0

@@ -103,5 +103,6 @@ Packages
 .build
 xcuserdata
 *.xcodeproj
+Package.resolved
 
 # End of https://www.gitignore.io/api/swiftpackagemanager,osx,swift

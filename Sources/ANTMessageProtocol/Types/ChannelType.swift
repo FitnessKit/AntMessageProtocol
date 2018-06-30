@@ -1,5 +1,5 @@
 //
-//  ANTTypes.swift
+//  ChannelType.swift
 //  AntMessageProtocol
 //
 //  Created by Kevin Hoogheem on 3/28/17.
@@ -25,13 +25,6 @@
 import Foundation
 
 /// ANT Channel Type
-///
-/// - slave: Slave
-/// - master: Master
-/// - sharedSlave: Shared Bidirectional Slave
-/// - sharedMaster: Shared Bidirectional Master
-/// - slaveReceiveOnly: Slave Receive Only Channel
-/// - masterTransmitOnly: Master Transit Only Channel
 public enum ChannelType: UInt8 {
     ///Slave
     case slave              = 0

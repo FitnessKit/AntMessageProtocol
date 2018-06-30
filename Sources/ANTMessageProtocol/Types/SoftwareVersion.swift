@@ -24,7 +24,6 @@
 
 import Foundation
 
-
 /// ANT Software Version
 public struct SoftwareVersion {
 

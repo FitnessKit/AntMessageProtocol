@@ -94,3 +94,18 @@ extension TransmissionType: Hashable {
         return rawValue.hashValue
     }
 }
+
+@available(swift 4.0)
+extension TransmissionType.Transmission: Encodable {
+
+    public var description: String {
+        return String(describing: self)
+    }
+
+    public func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: TypeValueCodingKeys.self)
+
+        try container.encode(self.description, forKey: .type)
+        try container.encode(self.rawValue, forKey: .value)
+    }
+}

@@ -26,7 +26,8 @@ import Foundation
 import DataDecoder
 
 /// ANT Transmission Type
-public struct TransmissionType {
+@available(swift 4.0)
+public struct TransmissionType: Encodable {
 
     /// Transmission types
     public enum Transmission: UInt8 {

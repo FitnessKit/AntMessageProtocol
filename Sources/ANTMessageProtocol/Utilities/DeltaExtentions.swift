@@ -24,7 +24,6 @@
 
 import Foundation
 
-
 extension UInt8 {
 
     func delta(from: UInt8) -> UInt8 {

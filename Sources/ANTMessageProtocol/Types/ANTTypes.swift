@@ -46,33 +46,3 @@ public enum ChannelType: UInt8 {
     ///Master Transmit Only Channel (legacy)
     case masterTransmitOnly = 80
 }
-
-/// ANT Device Types
-public enum DeviceType: UInt8 {
-    case unknown                    = 0
-    case sync                       = 1
-    case bikePower                  = 11
-    case multiSportSpeedDistance    = 15
-    case controls                   = 16
-    case fitnessEquipment           = 17
-    case bloodPressure              = 18
-    case geoCache                   = 19
-    case lightElectricVehicle       = 20
-    case activityMonitor            = 21
-    case environment                = 25
-    case racquet                    = 26
-    case muscleOxygen               = 31
-    case bikeShifting               = 34
-    case bikeLights                 = 35
-    case bikeLightsSecondary        = 36
-    case bikeRadar                  = 40
-    case tracker                    = 41
-    case dropperSeatpost            = 115
-    case bikeSuspension             = 116
-    case weightScale                = 119
-    case heartRate                  = 120
-    case bikeSpeedCadence           = 121
-    case bikeCadence                = 122
-    case bikeSpeed                  = 123
-    case strideBasedSpeedDistance   = 124
-}

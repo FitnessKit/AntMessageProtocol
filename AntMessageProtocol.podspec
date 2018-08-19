@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AntMessageProtocol'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'Encoding and Decoding of the ANT Message Protocol.'
 
 
@@ -36,6 +36,6 @@ Encoding and Decoding of the ANT Message Protocol.  Provides codeing methods for
 
 #Dependancy
   s.dependency 'DataDecoder', '~> 4.0.3'
-  s.dependency 'FitnessUnits', '~> 2.0.0'
+  s.dependency 'FitnessUnits'
 
 end

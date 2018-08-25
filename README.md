@@ -20,15 +20,15 @@ Swift Version of the ANT Message Protocol.
 Swift Package Manager:
 ```swift
     dependencies: [
-        .Package(url: "https://github.com/FitnessKit/AntMessageProtocol", from: 0.2.3)
+        .Package(url: "https://github.com/FitnessKit/AntMessageProtocol", from: "0.2.7")
     ]
 ```
 ## How to Use
 
 ## Author
 
-Kevin A. Hoogheem
+This package is developed and maintained by Kevin A. Hoogheem
 
 ## License
 
-AntMessageProtocol is available under the MIT license. See the LICENSE file for more info.
+FitDataProtocol is available under the [MIT license](http://opensource.org/licenses/MIT)

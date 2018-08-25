@@ -147,7 +147,11 @@ public extension Manufacturer {
         allManufacturers.append(.gopherSport)
         allManufacturers.append(.waterRower)
         allManufacturers.append(.orangeTheory)
-
+        allManufacturers.append(.inpeak)
+        allManufacturers.append(.kinetic)
+        allManufacturers.append(.johnsonHealthTech)
+        allManufacturers.append(.polarElectro)
+        allManufacturers.append(.seeSense)
         allManufacturers.append(.healthAndLife)
         allManufacturers.append(.lezyne)
         allManufacturers.append(.scribeLabs)
@@ -180,6 +184,12 @@ public extension Manufacturer {
         allManufacturers.append(.omata)
         allManufacturers.append(.vdo)
         allManufacturers.append(.magneticDays)
+        allManufacturers.append(.hammerHead)
+        allManufacturers.append(.kineticByKurt)
+        allManufacturers.append(.shapeLog)
+        allManufacturers.append(.dabuziduo)
+        allManufacturers.append(.jetBlack)
+        allManufacturers.append(.coros)
 
         allManufacturers.append(.actiGraph)
 

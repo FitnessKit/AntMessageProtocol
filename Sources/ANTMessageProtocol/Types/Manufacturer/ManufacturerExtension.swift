@@ -272,8 +272,18 @@ public extension Manufacturer {
     public class var waterRower: Manufacturer { return Manufacturer(id: 118, name: "Water Rower") }
     /// Orange Theory
     public class var orangeTheory: Manufacturer { return Manufacturer(id: 119, name: "Orange Theory") }
+    /// Inpeak
+    public class var inpeak: Manufacturer { return Manufacturer(id: 120, name: "Inpeak") }
+    /// Kinetic
+    public class var kinetic: Manufacturer { return Manufacturer(id: 121, name: "Kinetic") }
+    /// Johnson Health Tech
+    public class var johnsonHealthTech: Manufacturer { return Manufacturer(id: 122, name: "Johnson Health Tech") }
+    /// Polar Electro
+    public class var polarElectro: Manufacturer { return Manufacturer(id: 123, name: "Polar Electro") }
+    /// SeeSense
+    public class var seeSense: Manufacturer { return Manufacturer(id: 124, name: "SeeSense") }
 
-    //120-254 NOT ASSIGNED
+    //125-254 NOT ASSIGNED
     //256 NOT ASSIGNED
 
     /// Health and Life
@@ -340,7 +350,18 @@ public extension Manufacturer {
     public class var vdo: Manufacturer { return Manufacturer(id: 287, name: "VDO") }
     /// Magnetic Days
     public class var magneticDays: Manufacturer { return Manufacturer(id: 288, name: "Magnetic Days") }
-
+    /// HammerHead
+    public class var hammerHead: Manufacturer { return Manufacturer(id: 289, name: "HammerHead") }
+    /// Kinetic by Kurt
+    public class var kineticByKurt: Manufacturer { return Manufacturer(id: 290, name: "Kinetic by Kurt") }
+    /// ShapeLog
+    public class var shapeLog: Manufacturer { return Manufacturer(id: 291, name: "ShapeLog") }
+    /// Dabuziduo
+    public class var dabuziduo: Manufacturer { return Manufacturer(id: 292, name: "Dabuziduo") }
+    /// Jet Black
+    public class var jetBlack: Manufacturer { return Manufacturer(id: 293, name: "Jet Black") }
+    /// Coros
+    public class var coros: Manufacturer { return Manufacturer(id: 294, name: "Coros") }
 
     /// ActiGraph
     public class var actiGraph: Manufacturer { return Manufacturer(id: 5769, name: "ActiGraph") }

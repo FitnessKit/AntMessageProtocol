@@ -362,6 +362,12 @@ public extension Manufacturer {
     public class var jetBlack: Manufacturer { return Manufacturer(id: 293, name: "Jet Black") }
     /// Coros
     public class var coros: Manufacturer { return Manufacturer(id: 294, name: "Coros") }
+    /// VirtuGo
+    public class var virtugo: Manufacturer { return Manufacturer(id: 295, name: "VirtuGo") }
+    /// Velosense
+    public class var velosense: Manufacturer { return Manufacturer(id: 296, name: "Velosense") }
+    /// Cycligent Inc
+    public class var cycligent: Manufacturer { return Manufacturer(id: 297, name: "Cycligent Inc") }
 
     /// ActiGraph
     public class var actiGraph: Manufacturer { return Manufacturer(id: 5769, name: "ActiGraph") }

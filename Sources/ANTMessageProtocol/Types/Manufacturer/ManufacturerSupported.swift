@@ -190,6 +190,9 @@ public extension Manufacturer {
         allManufacturers.append(.dabuziduo)
         allManufacturers.append(.jetBlack)
         allManufacturers.append(.coros)
+        allManufacturers.append(.virtugo)
+        allManufacturers.append(.velosense)
+        allManufacturers.append(.cycligent)
 
         allManufacturers.append(.actiGraph)
 

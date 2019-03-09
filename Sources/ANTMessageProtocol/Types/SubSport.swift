@@ -24,7 +24,6 @@
 
 import Foundation
 
-
 /// FIT Sub Sport
 ///
 public enum SubSport: UInt8 {
@@ -146,4 +145,12 @@ public enum SubSport: UInt8 {
     case all                    = 254
     /// Invalid
     case invalid                = 255
+}
+
+extension SubSport {
+
+    /// String Value for the Enum
+    public var description: String {
+        return String(describing: self)
+    }
 }

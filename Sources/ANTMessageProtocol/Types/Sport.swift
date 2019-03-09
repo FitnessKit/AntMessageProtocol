@@ -27,57 +27,116 @@ import Foundation
 /// FIT Sport Types
 ///
 public enum Sport: UInt8 {
+    /// Generic
     case generic                = 0
+    /// Running
     case running                = 1
+    /// Cycling
     case cycling                = 2
+    /// Multi-Sport Transition
     case multisportTransition   = 3
+    /// Fitness Equipment
     case fitnessEquipment       = 4
+    /// Swimming
     case swimming               = 5
+    /// Basketball
     case basketball             = 6
+    /// Soccer
     case soccer                 = 7
+    /// Tennis
     case tennis                 = 8
+    /// American Football
     case americanFootball       = 9
+    /// Training
     case training               = 10
+    /// Walking
     case walking                = 11
+    /// Cross Country Skiing
     case crossCountrySkiing     = 12
+    /// Alpine Skiing
     case alpineSkiing           = 13
+    /// Snow Boarding
     case snowboarding           = 14
+    /// Rowing
     case rowing                 = 15
+    /// Mountaineering
     case mountaineering         = 16
+    /// Hiking
     case hiking                 = 17
+    /// Mulitsport
     case mulitsport             = 18
+    /// Paddling
     case paddling               = 19
+    /// Flying
     case flying                 = 20
+    /// eBiking
     case eBiking                = 21
+    /// Motorcycling
     case motorcycling           = 22
+    /// Boating
     case boating                = 23
+    /// Driving
     case driving                = 24
+    /// Golf
     case golf                   = 25
+    /// Hang Gliding
     case hangGliding            = 26
+    /// Horseback Riding
     case horsebackRiding        = 27
+    /// Hunting
     case hunting                = 28
+    /// Fishing
     case fishing                = 29
+    /// Inline Skating
     case inlineSkating          = 30
+    //// Rock Climbing
     case rockClimbing           = 31
+    /// Sailing
     case sailing                = 32
+    /// Ice Skating
     case iceSkating             = 33
+    /// Sky Diving
     case skyDiving              = 34
+    /// Snowshoeing
     case snowshoeing            = 35
+    /// Snowmobiling
     case snowmobiling           = 36
+    /// Stand Up Paddel Boarding
     case standUpPaddelboarding  = 37
+    /// Surfing
     case surfing                = 38
+    /// Wakeboarding
     case wakeboarding           = 39
+    /// Water Skiing
     case waterSkiing            = 40
+    /// Kayaking
     case kayaking               = 41
+    /// Rafting
     case rafting                = 42
+    /// Wind Surfing
     case windSurfing            = 43
+    /// Kite Surfing
     case kiteSurfing            = 44
+    /// Tactical
     case tactical               = 45
+    /// Jump Master
     case jumpMaster             = 46
+    /// Boxing
     case boxing                 = 47
+    /// Floor Climbing
     case floorClimbing          = 48
+    /// All
     case all                    = 254
+    /// Invalid
     case invalid                = 255
+}
+
+extension Sport {
+
+    /// String Value for the Enum
+    public var description: String {
+        return String(describing: self)
+    }
 }
 
 extension Sport {
@@ -187,7 +246,5 @@ extension Sport {
         default:
             return "Unknown"
         }
-
     }
-
 }

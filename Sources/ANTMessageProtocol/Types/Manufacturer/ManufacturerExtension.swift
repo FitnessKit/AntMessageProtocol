@@ -368,6 +368,8 @@ public extension Manufacturer {
     public class var velosense: Manufacturer { return Manufacturer(id: 296, name: "Velosense") }
     /// Cycligent Inc
     public class var cycligent: Manufacturer { return Manufacturer(id: 297, name: "Cycligent Inc") }
+    /// Trailforks
+    public class var trailforks: Manufacturer { return Manufacturer(id: 298, name: "Trailforks") }
 
     /// ActiGraph
     public class var actiGraph: Manufacturer { return Manufacturer(id: 5769, name: "ActiGraph") }

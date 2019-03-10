@@ -24,20 +24,29 @@
 
 import Foundation
 
-
+/// Day of Week
 public enum DayOfWeek: UInt8 {
+    /// Sunday
     case sunday     = 0
+    /// Monday
     case monday     = 1
+    /// Tuesday
     case tuesday    = 2
+    /// Wednesday
     case wednesday  = 3
+    /// Thursday
     case thursday   = 4
+    /// Friday
     case friday     = 5
+    /// Saturday
     case saturday   = 6
+    /// Invalid
     case invalid    = 7
 }
 
 public extension DayOfWeek {
 
+    /// Day of Week string value
     public var stringValue: String {
         switch self {
         case .sunday:
@@ -60,27 +69,44 @@ public extension DayOfWeek {
     }
 }
 
+/// Month
 public enum Month: UInt8 {
+    /// January
     case january        = 1
+    /// February
     case february       = 2
+    /// March
     case march          = 3
+    /// April
     case april          = 4
+    /// May
     case may            = 5
+    /// June
     case june           = 6
+    /// July
     case july           = 7
+    /// August
     case august         = 8
+    /// September
     case september      = 9
+    /// October
     case october        = 10
+    /// November
     case november       = 11
+    /// December
     case december       = 12
 }
 
+/// ANT Day
 public struct AntDay {
 
+    /// Weekday
     public let weekday: DayOfWeek
 
+    /// Day of Month
     public let dayOfMonth: UInt8
 
+    /// UInt8 Value
     public var uint8Value: UInt8 {
         var value: UInt8 = dayOfMonth
         value |= UInt8(weekday.rawValue) << 5
@@ -100,18 +126,23 @@ public struct AntDay {
     }
 }
 
-
+/// Time Date
 public struct TimeDate {
     fileprivate var _year: UInt8 = 0
 
+    /// Seconds
     public let seconds: UInt8
 
+    /// Minutes
     public let minutes: UInt8
 
+    /// Houra
     public let hours: UInt8
 
+    /// Day
     public let day: AntDay
 
+    /// Month
     public let month: Month
 
     fileprivate(set) public var year: UInt16 {

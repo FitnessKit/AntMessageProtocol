@@ -72,8 +72,11 @@ public extension BatteryStatus {
     }
 }
 
+/// Cumulative Operating Resolution
 public enum CumulativeOperatingResolution: UInt8 {
+    /// Sixteen Seconds
     case sixteenSecond      = 0
+    /// Two Seconds
     case twoSecond          = 1
 
     public var multiplier: UInt8 {
@@ -117,15 +120,19 @@ public struct BatteryIdentifier {
     }
 }
 
-
+/// Battery Descriptive Field
 public struct BatteryDescriptiveField {
 
+    /// Course Voltage
     public let coarseVoltage: UInt8
 
+    /// Battery Status
     public let status: BatteryStatus
 
+    /// Resolution
     public let resolution: CumulativeOperatingResolution
 
+    /// UInt8 value
     public var uint8Value: UInt8 {
         var value: UInt8 = coarseVoltage
         value |= UInt8(status.rawValue) << 4
@@ -133,7 +140,6 @@ public struct BatteryDescriptiveField {
 
         return UInt8(value)
     }
-
 
     public init(_ value: UInt8) {
         self.coarseVoltage = (value & 0x0F)

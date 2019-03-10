@@ -25,24 +25,40 @@
 import Foundation
 
 
+/// Fitness Equipment Type
 public enum FitnessEquipmentType: String {
+    /// General
     case general        = "General"
+    /// Treadmill
     case treadmill      = "Treadmill"
+    /// Elliptical
     case elliptical     = "Elliptical"
+    /// Stationary Bike
     case stationaryBike = "Stationary Bike"
+    /// Climber
     case Climber        = "Climber"
+    /// Nordic Skier
     case nordicSkier    = "Nordic Skier"
+    /// Trainer
     case trainer        = "Trainer"
+    /// Trainer Torque
     case trainerTorque  = "Trainer Torque"
 }
 
+/// Fitness Eqiupment State
 public enum FitnessEquipmentState: Int {
+    /// Reserved
     case reserved       = 0
+    /// Asleep
     case asleep         = 1
+    /// Ready
     case ready          = 2
+    /// In Use
     case inUse          = 3
+    /// Puased - Finished
     case paused         = 4
 
+    /// State String Value
     public var stringValue: String {
         switch self {
         case .asleep:
@@ -58,6 +74,12 @@ public enum FitnessEquipmentState: Int {
         }
     }
 
+    /// Checks if the State is allowed to Transition
+    ///
+    /// - Parameter state: State to Transition to
+    /// - Returns: Transition allowed
+    /// - Note: This is the offical state, but you may need to allow all transitions
+    ///  since you may not start receiving data from the asleep or ready state
     public func canTransition(state: FitnessEquipmentState) -> Bool {
 
         switch (self, state) {

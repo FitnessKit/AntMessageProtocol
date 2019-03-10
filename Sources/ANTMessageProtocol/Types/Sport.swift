@@ -25,7 +25,6 @@
 import Foundation
 
 /// FIT Sport Types
-///
 public enum Sport: UInt8 {
     /// Generic
     case generic                = 0
@@ -141,6 +140,7 @@ extension Sport {
 
 extension Sport {
 
+    /// String value for Sport
     public var stringValue: String {
         switch self {
         case .generic:

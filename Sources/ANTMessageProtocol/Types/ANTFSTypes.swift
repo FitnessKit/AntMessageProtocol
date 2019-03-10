@@ -24,24 +24,38 @@
 
 import Foundation
 
+/// ANTFS Beacon Perio
 public enum AntFsBeaconPeriod: UInt8 {
+    /// Half Hertz
     case halfHertz          = 0
-    case oneHertz           = 1 
+    /// One Hertz
+    case oneHertz           = 1
+    /// Two Hertz
     case twoHertz           = 2
+    /// Four Hertz
     case fourHertz          = 3
+    /// Eight Hertz
     case eightHertz         = 4
+    /// Match Established Hertz
     case matchEstablished   = 7
 }
 
+/// ANTFS Client State
 public enum AntFsClientState: UInt8 {
+    /// Link
     case link               = 0
+    /// Authentication
     case authentication     = 1
+    /// Transport
     case transport          = 2
+    /// Busy
     case busy               = 3
 
+    /// Reserved
     case reserved           = 15
 }
 
+/// ANTFS Authorization Type
 public enum AntFsAuthType: UInt8 {
     /// Pass-through supported (pairing & passkey optional)
     case passThrough        = 0
@@ -50,10 +64,11 @@ public enum AntFsAuthType: UInt8 {
     /// PassKey and Pairing Only
     case passKeyAndPairing  = 3
 
+    /// Reserved
     case reserved           = 255
 }
 
-
+/// ANTFS Status Byte1
 public struct AntFsStatusByte1 {
 
     fileprivate(set) public var beaconPeriod: AntFsBeaconPeriod
@@ -92,6 +107,7 @@ public struct AntFsStatusByte1 {
 
 }
 
+/// ANTFS Status Byte2
 public struct AntFsStatusByte2 {
 
     fileprivate(set) public var deviceState: AntFsClientState

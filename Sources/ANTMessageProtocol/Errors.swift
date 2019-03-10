@@ -24,8 +24,9 @@
 
 import Foundation
 
+/// ANTMessage Error Reasons
 public enum ErrorReasons {
-
+    /// Unsupported Message
     case unsupportedMessage
 
     /// Manufactuer Registration

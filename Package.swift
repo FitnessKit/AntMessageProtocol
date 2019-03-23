@@ -24,7 +24,8 @@ let package = Package(
             dependencies: [
                 "FitnessUnits",
                 "DataDecoder",
-                ]
+                ],
+            path: "Sources"
         ),
         .testTarget(
             name: "AntMessageProtocolTests",

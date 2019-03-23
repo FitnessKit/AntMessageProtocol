@@ -23,26 +23,17 @@
 //  THE SOFTWARE.
 
 import Foundation
-
-
+#if os(Linux)
+import Glibc
+#else
+import Darwin
+#endif
 
 extension Data {
 
     init<T>(from value: T) {
         var value = value
         self.init(buffer: UnsafeBufferPointer(start: &value, count: 1))
-    }
-
-
-    static var isLittleEndian: Bool {
-
-        let endian = CFByteOrderGetCurrent()
-
-        if endian == CFIndex(Int(CFByteOrderLittleEndian.rawValue)) {
-            return true
-        }
-
-        return false
     }
 
     var safeStringValue: String? {

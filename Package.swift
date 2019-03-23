@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:4.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -13,7 +13,9 @@ let package = Package(
         ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/FitnessKit/FitnessUnits", from: "2.1.2"),
+//        .package(url: "https://github.com/FitnessKit/FitnessUnits", from: "2.1.2"),
+        .package(url: "../FitnessUnits", .branch("master")),
+
         .package(url: "https://github.com/FitnessKit/DataDecoder", from: "4.3.1"),
         ],
     targets: [
@@ -29,6 +31,5 @@ let package = Package(
         .testTarget(
             name: "AntMessageProtocolTests",
             dependencies: ["AntMessageProtocol"]),
-        ],
-    swiftLanguageVersions: [3, 4]
+        ]
 )

@@ -4,5 +4,5 @@ import XCTest
 XCTMain([
     
     //testCase(AntMessageProtocolTests.allTests),
-    testCase(manufacturerTests.allTests),
+    testCase(ManufacturerTests.allTests),
 ])

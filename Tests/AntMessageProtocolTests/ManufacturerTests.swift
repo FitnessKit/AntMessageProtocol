@@ -10,10 +10,6 @@ import Foundation
 import XCTest
 @testable import AntMessageProtocol
 
-import XCTest
-@testable import AntMessageProtocol
-
-
 class ManufacturerTests: XCTestCase {
     override func setUp() {
         super.setUp()

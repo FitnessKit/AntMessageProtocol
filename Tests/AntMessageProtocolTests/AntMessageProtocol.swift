@@ -4,24 +4,14 @@ import XCTest
 
 class AntMessageProtocolTests: XCTestCase {
 
-
-    static var allTests : [(String, (AntMessageProtocolTests) -> () throws -> Void)] {
-        return [
-            /// Manufacturer
-            ("testRegisterManufacturer", testRegisterManufacturer),
-            ("testDupManufacturer", testDupManufacturer),
-            ("testFindManufacturer", testFindManufacturer),
-
-        ]
+    override func setUp() {
+        super.setUp()
+        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-
-    static var manufacturerTests : [(String, (AntMessageProtocolTests) -> () throws -> Void)] {
-        return [
-            /// Manufacturer
-            ("testRegisterManufacturer", testRegisterManufacturer),
-            ("testDupManufacturer", testDupManufacturer),
-            ("testFindManufacturer", testFindManufacturer),
-        ]
+    
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
     }
 
 }

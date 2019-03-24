@@ -10,7 +10,20 @@ import Foundation
 import XCTest
 @testable import AntMessageProtocol
 
-extension AntMessageProtocolTests {
+import XCTest
+@testable import AntMessageProtocol
+
+
+class ManufacturerTests: XCTestCase {
+    override func setUp() {
+        super.setUp()
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
+    
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+    }
 
     func testRegisterManufacturer() {
         // This is an example of a functional test case.
@@ -66,6 +79,12 @@ extension AntMessageProtocolTests {
 
 
     }
+
+    static var allTests = [
+        ("testRegisterManufacturer", testRegisterManufacturer),
+        ("testDupManufacturer", testDupManufacturer),
+        ("testFindManufacturer", testFindManufacturer),
+        ]
 
 }
 

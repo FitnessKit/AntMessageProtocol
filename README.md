@@ -20,7 +20,7 @@ Swift Version of the ANT Message Protocol.
 Swift Package Manager:
 ```swift
     dependencies: [
-        .Package(url: "https://github.com/FitnessKit/AntMessageProtocol", from: "0.3.0")
+        .Package(url: "https://github.com/FitnessKit/AntMessageProtocol", from: "1.0.0")
     ]
 ```
 

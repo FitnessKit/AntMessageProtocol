@@ -52,7 +52,7 @@ internal extension UInt8 {
 internal extension Array where Element: Equatable {
     mutating func removeObject(object: Element) {
 
-        if let index = index(of: object) {
+        if let index = firstIndex(of: object) {
             remove(at: index)
         }
     }

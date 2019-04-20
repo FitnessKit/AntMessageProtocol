@@ -1,6 +1,6 @@
 # AntMessageProtocol
 
-[![Swift4](https://img.shields.io/badge/swift4-compatible-4BC51D.svg?style=flat)](https://developer.apple.com/swift)
+[![Swift5](https://img.shields.io/badge/swift5-compatible-4BC51D.svg?style=flat)](https://developer.apple.com/swift)
 [![Version](https://img.shields.io/cocoapods/v/AntMessageProtocol.svg?style=flat)](http://cocoapods.org/pods/AntMessageProtocol)
 [![License](https://img.shields.io/cocoapods/l/AntMessageProtocol.svg?style=flat)](http://cocoapods.org/pods/AntMessageProtocol)
 [![Platform](https://img.shields.io/cocoapods/p/AntMessageProtocol.svg?style=flat)](http://cocoapods.org/pods/AntMessageProtocol)
@@ -23,6 +23,14 @@ Swift Package Manager:
         .Package(url: "https://github.com/FitnessKit/AntMessageProtocol", from: "0.3.0")
     ]
 ```
+
+Swift4
+```swift
+    dependencies: [
+        .package(url: "https://github.com/FitnessKit/AntMessageProtocol", .branch("swift42")),
+    ]
+```
+
 ## How to Use
 
 ## Author

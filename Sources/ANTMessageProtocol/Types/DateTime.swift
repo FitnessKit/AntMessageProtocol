@@ -47,7 +47,7 @@ public enum DayOfWeek: UInt8 {
 public extension DayOfWeek {
 
     /// Day of Week string value
-    public var stringValue: String {
+    var stringValue: String {
         switch self {
         case .sunday:
             return "Sunday"

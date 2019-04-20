@@ -42,8 +42,6 @@ public enum ErrorReasons {
     ///
     /// Message
     ///
-//    case invalidANTMessageDecode(msgType: ANTMessageType, expectedType: ANTMessageType)
-//    case invalidANTMessageSize(msgType: ANTMessageType, size: Int)
     case invalidChannelMessageType(type: UInt8)
     case invalidChannelMessageCode(type: UInt8)
     case invalidChannelType(type: UInt8)

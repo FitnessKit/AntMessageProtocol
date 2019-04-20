@@ -41,7 +41,7 @@ public enum NetworkType: UInt8 {
 public extension NetworkType {
 
     /// String Value for Network Type
-    public var stringValue: String {
+    var stringValue: String {
         switch self {
         case .public:
             return "ANT Public"

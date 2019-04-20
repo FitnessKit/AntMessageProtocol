@@ -63,10 +63,22 @@ extension Manufacturer: Encodable {
 
 extension Manufacturer: Hashable {
 
-    public var hashValue: Int {
-        get {
-            return "\(name)\(manufacturerID)".hashValue
-        }
+    /// Hashes the essential components of this value by feeding them into the
+    /// given hasher.
+    ///
+    /// Implement this method to conform to the `Hashable` protocol. The
+    /// components used for hashing must be the same as the components compared
+    /// in your type's `==` operator implementation. Call `hasher.combine(_:)`
+    /// with each of these components.
+    ///
+    /// - Important: Never call `finalize()` on `hasher`. Doing so may become a
+    ///   compile-time error in the future.
+    ///
+    /// - Parameter hasher: The hasher to use when combining the components
+    ///   of this instance.
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+        hasher.combine(manufacturerID)
     }
 }
 
@@ -86,7 +98,7 @@ public extension Manufacturer {
     ///
     /// - Parameter company: Manufacturer Object
     /// - Throws: FitError
-    public class func register(_ company: Manufacturer) throws {
+    class func register(_ company: Manufacturer) throws {
 
         /// check by the ID... as they may name it differently...
         let id = Manufacturer.supportedManufacturers.first { (compObj) -> Bool in
@@ -110,7 +122,7 @@ public extension Manufacturer {
     ///
     /// - Parameter id: Company Identifier per ANT
     /// - Returns: Manufacturer Instance
-    public class func company(id: UInt16) -> Manufacturer? {
+    class func company(id: UInt16) -> Manufacturer? {
 
         let id = Manufacturer.supportedManufacturers.first { (compObj) -> Bool in
             if compObj.manufacturerID == id {

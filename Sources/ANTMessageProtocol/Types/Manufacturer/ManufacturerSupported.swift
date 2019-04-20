@@ -27,7 +27,8 @@ import Foundation
 @available(swift 4.0)
 public extension Manufacturer {
 
-    public static var supportedManufacturers: [Manufacturer] = {
+    /// Supported Manufacturers
+    static var supportedManufacturers: [Manufacturer] = {
 
         allManufacturers.append(.unknown)
         allManufacturers.append(.development)

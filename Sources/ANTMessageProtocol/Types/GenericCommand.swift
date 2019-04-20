@@ -52,52 +52,52 @@ public enum GenericCommand {
 public extension GenericCommand {
 
     /// Move up to the previous menu item in the list (same hierarchy level)
-    public static var menuUp: GenericCommand {
+    static var menuUp: GenericCommand {
         return .value(0)
     }
 
     /// Move down to the next menu item in the list (same hierarchy level)
-    public static var menuDown: GenericCommand {
+    static var menuDown: GenericCommand {
         return .value(1)
     }
 
     /// Select the current menu item, i.e. initiate listed function, or move into sub menu
-    public static var menuSelect: GenericCommand {
+    static var menuSelect: GenericCommand {
         return .value(2)
     }
 
     /// Move up one level in the menu hierarchy
-    public static var menuBack: GenericCommand {
+    static var menuBack: GenericCommand {
         return .value(3)
     }
 
     /// Return to the home screen
-    public static var home: GenericCommand {
+    static var home: GenericCommand {
         return .value(4)
     }
 
     /// Start the timer counting from the existing value
-    public static var start: GenericCommand {
+    static var start: GenericCommand {
         return .value(32)
     }
 
     /// Stop the timer counting
-    public static var stop: GenericCommand {
+    static var stop: GenericCommand {
         return .value(33)
     }
 
     /// Reset the timer value to zero
-    public static var reset: GenericCommand {
+    static var reset: GenericCommand {
         return .value(34)
     }
 
     /// Mark the time as a completed length
-    public static var length: GenericCommand {
+    static var length: GenericCommand {
         return .value(35)
     }
 
     /// Mark the time as a completed lap
-    public static var lap: GenericCommand {
+    static var lap: GenericCommand {
         return .value(36)
     }
 }

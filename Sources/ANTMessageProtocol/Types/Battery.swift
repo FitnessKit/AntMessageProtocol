@@ -48,7 +48,8 @@ public enum BatteryStatus: UInt8 {
 
 public extension BatteryStatus {
 
-    public var stringValue: String {
+    /// String Value for Battery Status
+    var stringValue: String {
         switch self {
         case .reserved:
             return "Reserved"

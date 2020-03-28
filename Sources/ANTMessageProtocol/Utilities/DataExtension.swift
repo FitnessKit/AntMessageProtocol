@@ -32,8 +32,7 @@ import Darwin
 extension Data {
 
     init<T>(from value: T) {
-        var value = value
-        self.init(buffer: UnsafeBufferPointer(start: &value, count: 1))
+        self = Swift.withUnsafeBytes(of: value) { Data($0) }
     }
 
     var safeStringValue: String? {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AntMessageProtocol'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Encoding and Decoding of the ANT Message Protocol.'
 
 
@@ -21,7 +21,8 @@ Encoding and Decoding of the ANT Message Protocol.  Provides codeing methods for
   s.license             = { :type => 'MIT', :file => 'LICENSE' }
   s.author              = { 'Kevin A. Hoogheem' => 'kevin@hoogheem.net' }
   s.source              = { :git => 'https://github.com/FitnessKit/AntMessageProtocol.git', :tag => s.version.to_s }
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
+  s.swift_version       = '5.1'
 
 #Targets
   s.ios.deployment_target = '10.0'

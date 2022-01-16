@@ -16,7 +16,7 @@
     <header>
       <div class="content-wrapper">
         <p>
-          <a href="../index.html">AntMessageProtocol Docs</a>
+          <a href="../index.html">AntMessageProtocol 1.1.0 Docs</a>
           <span class="no-mobile"> (87% documented)</span>
         </p>
     
@@ -48,8 +48,12 @@
               <h1>Manufacturer</h1>
                 <div class="declaration">
                   <div class="language">
-                    <pre class="highlight swift"><code><span class="kd">@available(swift 4.0)</span>
+                    
+                    <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">swift</span> <span class="mf">4.0</span><span class="p">)</span>
 <span class="kd">open</span> <span class="kd">class</span> <span class="kt">Manufacturer</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Manufacturer</span><span class="p">:</span> <span class="kt">Encodable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Manufacturer</span><span class="p">:</span> <span class="kt">Hashable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Manufacturer</span><span class="p">:</span> <span class="kt">Equatable</span></code></pre>
 
                   </div>
                 </div>
@@ -79,7 +83,7 @@
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">manufacturerID</span><span class="p">:</span> <span class="kt">UInt16</span></code></pre>
+                            <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">manufacturerID</span><span class="p">:</span> <span class="kt">UInt16</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                           </div>
                         </div>
@@ -106,7 +110,7 @@
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                            <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                           </div>
                         </div>
@@ -118,7 +122,7 @@
                       <code>
                       <a name="/s:18AntMessageProtocol12ManufacturerC2id4nameACs6UInt16V_SStcfc"></a>
                       <a name="//apple_ref/swift/Method/init(id:name:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC2id4nameACs6UInt16V_SStcfc">init(id:name:)</a>
+                      <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC2id4nameACs6UInt16V_SStcfc">init(id:<wbr>name:<wbr>)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -140,16 +144,12 @@
                       </section>
                     </div>
                   </li>
-                </ul>
-              </div>
-              <div class="task-group">
-                <ul>
                   <li class="item">
                     <div>
                       <code>
                       <a name="/s:SE6encode2toys7Encoder_p_tKF"></a>
                       <a name="//apple_ref/swift/Method/encode(to:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SE6encode2toys7Encoder_p_tKF">encode(to:)</a>
+                      <a class="token" href="#/s:SE6encode2toys7Encoder_p_tKF">encode(to:<wbr>)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -170,16 +170,12 @@
                       </section>
                     </div>
                   </li>
-                </ul>
-              </div>
-              <div class="task-group">
-                <ul>
                   <li class="item">
                     <div>
                       <code>
                       <a name="/s:18AntMessageProtocol12ManufacturerC4hash4intoys6HasherVz_tF"></a>
                       <a name="//apple_ref/swift/Method/hash(into:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC4hash4intoys6HasherVz_tF">hash(into:)</a>
+                      <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC4hash4intoys6HasherVz_tF">hash(into:<wbr>)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -233,16 +229,12 @@ of this instance.</p>
                       </section>
                     </div>
                   </li>
-                </ul>
-              </div>
-              <div class="task-group">
-                <ul>
                   <li class="item">
                     <div>
                       <code>
                       <a name="/s:SQ2eeoiySbx_xtFZ"></a>
                       <a name="//apple_ref/swift/Method/==(_:_:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:SQ2eeoiySbx_xtFZ">==(_:_:)</a>
+                      <a class="token" href="#/s:SQ2eeoiySbx_xtFZ">==(_:<wbr>_:<wbr>)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -263,16 +255,12 @@ of this instance.</p>
                       </section>
                     </div>
                   </li>
-                </ul>
-              </div>
-              <div class="task-group">
-                <ul>
                   <li class="item">
                     <div>
                       <code>
                       <a name="/s:18AntMessageProtocol12ManufacturerC8registeryyACKFZ"></a>
                       <a name="//apple_ref/swift/Method/register(_:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC8registeryyACKFZ">register(_:)</a>
+                      <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC8registeryyACKFZ">register(_:<wbr>)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -325,7 +313,7 @@ of this instance.</p>
                       <code>
                       <a name="/s:18AntMessageProtocol12ManufacturerC7company2idACSgs6UInt16V_tFZ"></a>
                       <a name="//apple_ref/swift/Method/company(id:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC7company2idACSgs6UInt16V_tFZ">company(id:)</a>
+                      <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC7company2idACSgs6UInt16V_tFZ">company(id:<wbr>)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -370,10 +358,6 @@ of this instance.</p>
                       </section>
                     </div>
                   </li>
-                </ul>
-              </div>
-              <div class="task-group">
-                <ul>
                   <li class="item">
                     <div>
                       <code>
@@ -4832,6 +4816,33 @@ of this instance.</p>
                   <li class="item">
                     <div>
                       <code>
+                      <a name="/s:18AntMessageProtocol12ManufacturerC16mahleEbikeMotionACvpZ"></a>
+                      <a name="//apple_ref/swift/Variable/mahleEbikeMotion" class="dashAnchor"></a>
+                      <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC16mahleEbikeMotionACvpZ">mahleEbikeMotion</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Mahle E-BikeMotion</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">mahleEbikeMotion</span><span class="p">:</span> <span class="kt">Manufacturer</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
                       <a name="/s:18AntMessageProtocol12ManufacturerC9actiGraphACvpZ"></a>
                       <a name="//apple_ref/swift/Variable/actiGraph" class="dashAnchor"></a>
                       <a class="token" href="#/s:18AntMessageProtocol12ManufacturerC9actiGraphACvpZ">actiGraph</a>
@@ -4856,10 +4867,6 @@ of this instance.</p>
                       </section>
                     </div>
                   </li>
-                </ul>
-              </div>
-              <div class="task-group">
-                <ul>
                   <li class="item">
                     <div>
                       <code>
@@ -5027,7 +5034,7 @@ of this instance.</p>
       <div class="footer-wrapper">
         <section id="footer">
           <p>© 2017 Kevin A. Hoogheem</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
         </section>
       </div>
     </div>

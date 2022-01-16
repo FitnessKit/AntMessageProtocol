@@ -16,7 +16,7 @@
     <header>
       <div class="content-wrapper">
         <p>
-          <a href="../index.html">AntMessageProtocol Docs</a>
+          <a href="../index.html">AntMessageProtocol 1.1.0 Docs</a>
           <span class="no-mobile"> (87% documented)</span>
         </p>
     
@@ -48,8 +48,11 @@
               <h1>TransmissionType</h1>
                 <div class="declaration">
                   <div class="language">
-                    <pre class="highlight swift"><code><span class="kd">@available(swift 4.0)</span>
+                    
+                    <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">swift</span> <span class="mf">4.0</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TransmissionType</span> <span class="p">:</span> <span class="kt">Encodable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">TransmissionType</span><span class="p">:</span> <span class="kt">Equatable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">TransmissionType</span><span class="p">:</span> <span class="kt">Hashable</span></code></pre>
 
                   </div>
                 </div>
@@ -81,6 +84,7 @@
                           <div class="language">
                             <p class="aside-title">Swift</p>
                             <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Transmission</span> <span class="p">:</span> <span class="kt">UInt8</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt"><a href="../Structs/TransmissionType.html">TransmissionType</a></span><span class="o">.</span><span class="kt">Transmission</span><span class="p">:</span> <span class="kt">Encodable</span></code></pre>
 
                           </div>
                         </div>
@@ -107,7 +111,7 @@
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">rawValue</span><span class="p">:</span> <span class="kt">UInt8</span></code></pre>
+                            <pre class="highlight swift"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">rawValue</span><span class="p">:</span> <span class="kt">UInt8</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                           </div>
                         </div>
@@ -134,7 +138,7 @@
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">trans</span><span class="p">:</span> <span class="kt"><a href="../Structs/TransmissionType/Transmission.html">Transmission</a></span></code></pre>
+                            <pre class="highlight swift"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">trans</span><span class="p">:</span> <span class="kt"><a href="../Structs/TransmissionType/Transmission.html">Transmission</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                           </div>
                         </div>
@@ -146,7 +150,7 @@
                       <code>
                       <a name="/s:18AntMessageProtocol16TransmissionTypeVyACs5UInt8Vcfc"></a>
                       <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:18AntMessageProtocol16TransmissionTypeVyACs5UInt8Vcfc">init(_:)</a>
+                      <a class="token" href="#/s:18AntMessageProtocol16TransmissionTypeVyACs5UInt8Vcfc">init(_:<wbr>)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -168,16 +172,12 @@
                       </section>
                     </div>
                   </li>
-                </ul>
-              </div>
-              <div class="task-group">
-                <ul>
                   <li class="item">
                     <div>
                       <code>
                       <a name="/s:18AntMessageProtocol16TransmissionTypeV2eeoiySbAC_ACtFZ"></a>
                       <a name="//apple_ref/swift/Method/==(_:_:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:18AntMessageProtocol16TransmissionTypeV2eeoiySbAC_ACtFZ">==(_:_:)</a>
+                      <a class="token" href="#/s:18AntMessageProtocol16TransmissionTypeV2eeoiySbAC_ACtFZ">==(_:<wbr>_:<wbr>)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -233,16 +233,12 @@
                       </section>
                     </div>
                   </li>
-                </ul>
-              </div>
-              <div class="task-group">
-                <ul>
                   <li class="item">
                     <div>
                       <code>
                       <a name="/s:18AntMessageProtocol16TransmissionTypeV4hash4intoys6HasherVz_tF"></a>
                       <a name="//apple_ref/swift/Method/hash(into:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:18AntMessageProtocol16TransmissionTypeV4hash4intoys6HasherVz_tF">hash(into:)</a>
+                      <a class="token" href="#/s:18AntMessageProtocol16TransmissionTypeV4hash4intoys6HasherVz_tF">hash(into:<wbr>)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -436,7 +432,7 @@ of this instance.</p>
       <div class="footer-wrapper">
         <section id="footer">
           <p>© 2017 Kevin A. Hoogheem</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
         </section>
       </div>
     </div>

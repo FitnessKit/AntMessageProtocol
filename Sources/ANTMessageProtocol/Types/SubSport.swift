@@ -28,12 +28,14 @@ import Foundation
 ///
 public enum SubSport: UInt8 {
     /// Generic
-    case generic                = 1
+    case generic                = 0
     /// Treadmill - Run/Fitness Equipment
-    case treadmill              = 2
-    /// Street - run
-    case street                 = 3
-    /// Track - run
+    case treadmill              = 1
+    /// Street - Run
+    case street                 = 2
+    /// Trail - Run
+    case trail                  = 3
+    /// Track - Run
     case track                  = 4
     /// Spin - Cycling
     case spin                   = 5
@@ -138,9 +140,15 @@ public enum SubSport: UInt8 {
     /// Gauge Diving - Diving
     case gaugeDiving            = 55
     /// Apnea Diving - Diving
-    case apneaDiving            = 57
-    /// Virtual Activity - Used for events where participants run, crawl through mud, climb over walls, etc
+    case apneaDiving            = 56
+    /// Apnea Hunting - Diving
+    case apneaHHunting          = 57
+    /// Virtual Activity
     case virtualActivity        = 58
+    /// Obstacle
+    ///
+    /// Used for events where participants run, crawl through mud, climb over walls, etc
+    case obstacle               = 59
     /// All
     case all                    = 254
     /// Invalid

@@ -182,7 +182,7 @@ public extension Manufacturer {
     /// Wattbike
      class var wattBike: Manufacturer { return Manufacturer(id: 73, name: "Wattbike") }
 
-    //74-75 NOT ASSIGNED
+    // 74-75 NOT ASSIGNED
 
     /// MOXY
      class var moxy: Manufacturer { return Manufacturer(id: 76, name: "MOXY") }
@@ -370,6 +370,8 @@ public extension Manufacturer {
      class var cycligent: Manufacturer { return Manufacturer(id: 297, name: "Cycligent Inc") }
     /// Trailforks
      class var trailforks: Manufacturer { return Manufacturer(id: 298, name: "Trailforks") }
+    /// Mahle E-BikeMotion
+     class var mahleEbikeMotion: Manufacturer { return Manufacturer(id: 299, name: "Mahle E-BikeMotion") }
 
     /// ActiGraph
      class var actiGraph: Manufacturer { return Manufacturer(id: 5769, name: "ActiGraph") }

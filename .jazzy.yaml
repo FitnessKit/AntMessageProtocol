@@ -10,5 +10,5 @@ theme: jony
 
 copyright: '© 2017 Kevin A. Hoogheem'
 
-xcodebuild_arguments: [-scheme,AntMessageProtocol-Package]
+#xcodebuild_arguments: [-scheme,AntMessageProtocol-Package]
 

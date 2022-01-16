@@ -194,6 +194,8 @@ public extension Manufacturer {
         allManufacturers.append(.virtugo)
         allManufacturers.append(.velosense)
         allManufacturers.append(.cycligent)
+        allManufacturers.append(.trailforks)
+        allManufacturers.append(.mahleEbikeMotion)
 
         allManufacturers.append(.actiGraph)
 
